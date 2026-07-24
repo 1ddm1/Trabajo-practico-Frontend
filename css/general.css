@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+
+
+:root {
+    /* CSS HEX */
+--Titulos-onyx: #0b090aff;
+--Texto-carbon-black: #161a1dff;
+--Subtitulos-dark-garnet: #660708ff;
+--Subtexto-mahogany-red: #a4161aff;
+--enlaces-ahogany-red-2: #ba181bff;
+--atencion-strawberry-red: #e5383bff;
+--silver: #b1a7a6ff;
+--dust-grey: #d3d3d3ff;
+--Formulario-white-smoke: #f5f3f4ff;
+--white: #ffffffff;
+
+/*Tipografia texto*/
+  --Texto: "Cairo Play", sans-serif;
+
+/*Tipografia Titulos*/
+--Titulos: "Bagel Fat One", system-ui;
+}
+
+body{
+    background-color: var(--white);
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    font-family: var(--Texto);
+}
+
+main>h1{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+header{
+    background-color: var(--atencion-strawberry-red);
+    padding: 1rem 2rem;
+}
+
+header nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    width: 100px;
+
+}
+h2{
+    text-align: right;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li,
+footer ul li {
+    list-style: none;
+}
+
+header nav ul li a,
+footer a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+footer{
+   background-color: var(--atencion-strawberry-red);
+    padding: 1rem 2rem;
+  
+}
+footer nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}

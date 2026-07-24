@@ -1,0 +1,40 @@
+@import url(../css/general.css);
+
+.form-container{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius:8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    background-color: var(--silver);
+    margin-bottom: 3rem;
+    font-family: 'Cairo Play';
+}
+
+.form-group{
+    margin-bottom: 1,5rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 8px;
+    border-style: hidden;
+}
+
+.form-group.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+fieldset .form-group div{
+    width: 50px;
+    display:flex;
+    flex-direction: row;
+}
+
+textarea{
+    max-width: 60%;
+
+}
+

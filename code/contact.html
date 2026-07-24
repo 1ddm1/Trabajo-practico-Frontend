@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css"/> 
+</head>
+
+<body class="contacto">
+     <header> 
+ <nav class="nav.navbar">
+   <a href="#" class="nav-logo"> 
+    <img class="logo" src="../images/logo.png" alt="logo"/>
+    <h2 class="logo-text">KIO</h2> 
+   </a>
+   <ul class="nav-menu">
+    <li class="nav-item">
+        <a href="index.html" class="nav-link"> Inicio</a>
+    </li>
+    <li class="nav-item">
+        <a href="products.html" class="nav-link"> Menu
+            <i class="fa-solid fa-drumstick-bite"></i>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="gallery.html" class="nav-link"> Galeria</a>
+    </li>
+    <li class="nav-item">
+        <a href="contact.html" class="nav-link"> Contacto</a>
+    </li>
+   </ul>
+    </nav>
+ </header>
+
+ <main> 
+    <h1> Contacto</h1>
+
+    <section class="form-container">
+        <form id="form" action="#">
+            <div class="form group">
+                <label for="name">Nombre</label>
+                <input type="text" required placeholder="Tu nombre">
+            </div>
+            <div class="form group">
+                <label for="lastName">Apellido</label>
+                <input type="text" required placeholder="Tu apellido">
+            </div><div class="form group">
+                <label for="email">Correo electronico</label>
+                <input type="email" required placeholder="Tu email">
+            </div><div class="form group">
+                <label for="phone"> Telefono</label>
+                <input type="tel" required placeholder="Numero de telefono">
+            </div><div class="form group">
+                <label for="reason">Motivo de contacto</label>
+                <select name="reason" id="reason" required>
+                    <option value=""disable selected>Selecciona una opcion</option>
+                    <option value="claim">Incidente o reclamo sobre un pedido</option>
+                    <option value="ask">Consulta de horarios, locales o menu</option>
+                    <option value="other"> Consulta sobre oportunidades laborales</option>
+                </select>
+            </div>
+            <fieldset>
+                <div class="form-group">
+                    <h3>¿Es cliente nuestro?</h3>
+                <div>
+                <input type="radio" required id="client-yes" value="yes" name="is-client">
+                <label for="client-yes">Si</label>
+                </div>
+                <div>
+                    <input type="radio" required id="client-no" value="no" name="is-client">
+                    <label for="client-yes">No</label>
+                </div>
+                </div>
+            </fieldset>
+                <div class="form-group">
+                    <label for="comment">Mensaje/Comentario</label>
+                    <textarea rows="5" cols="60" name="comment" id="comment" required placeholder="Escriba aqui su comentario"></textarea>
+                </div>
+                <div class="form-group button-container">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button class="btn btn-danger" type="reset">Limpiar</button>
+                </div>
+
+        </form>
+
+
+    </section>
+
+
+ </main>
+    
+</body>
+ <footer> 
+    <ul class="footer-nav">
+        <li class="nav-item">
+        <a href="index.html" class="nav-link"> Inicio</a>
+    </li>
+    <li class="nav-item">
+        <a href="products.html" class="nav-link"> Menu
+            <i class="fa-solid fa-drumstick-bite"></i>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="gallery.html" class="nav-link"> Galeria</a>
+    </li>
+    <li class="nav-item">
+        <a href="contact.html" class="nav-link"> Contacto</a>
+    </li>
+    </ul>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-tiktok"></i>
+    <p> 2026 Kio-Fried Chicken, Inc. Todos los derechos reservados.</p>
+
+ </footer>
+
+</html>
