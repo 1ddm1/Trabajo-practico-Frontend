@@ -65,6 +65,8 @@ header nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    font-family: var(--Titulos);
+    font-weight: 100;
 }
 
 .nav-logo{
@@ -83,28 +85,88 @@ header nav{
     color: var(--SecondaryBlack-carbon-black);
     font-family: var(--Titulos);
     font-size: 30px;
-    
-
-
 }
+
 header nav ul {
     display: flex;
     gap: 1.5rem;
 }
+.nav-link{
+    padding: 10px 18px;
+    color:var(--SecondaryBlack-carbon-black);
+    border-radius:var(--SecondaryWhite-white-smoke);
+    transition: 0.3s ease;
+}
+.nav-link:hover{
+    color:var(--white);
+    background-color: var(--SecondaryRed-dark-garnet);  
+}
 
+.hero-section{
+    min-height: 80vh;
+    background-color:var(--white);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:100vh;
+    justify-content:left;
+}
+
+.title{
+    font-family: var(--Titulos);
+    color: var(--strawberry-red);
+    max-width:50%;
+}
+.subtitle{
+    margin-top:8px;
+    max-width: 50%;
+    font-family: var(--Titulos);
+}
+.description{
+    max-width:50%;
+    margin: 24px 0 40px;
+}
+
+.btn{
+   padding: 10px 16px;
+   border: 2px solid ;
+   color:var(--white);
+   border-radius: 30px;
+   /* background:var(--SecondaryRed-dark-garnet); */
+   font-family: var(--Texto);
+   font-weight: bold;
+   
+}
+.btn .order-now{
+ background:var(--SecondaryRed-dark-garnet);
+}   
+
+.btn .contact-us{
+     background:var(--SecondaryRed-dark-garnet);
+
+}
 
 
  footer{
     background-color: var(--strawberry-red);
     padding: 1rem 2rem;
     margin-top: auto;
-    text-align:justify;
+    text-align:left;
  }
    
 
 
 .footer-nav{
     display:flex;
+    gap: 1.5rem;
+    justify-content:center;
+    margin-bottom: 8px;
+    font-family: var(--Titulos);
+    font-weight: 100;
+}
+
+.media{
+     display:flex;
     gap: 1.5rem;
     justify-content:center;
     margin-bottom: 8px;
