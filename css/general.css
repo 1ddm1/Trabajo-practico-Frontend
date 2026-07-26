@@ -1,11 +1,14 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    
+
+.cairo-play-text{
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-
-
+.bagel-fat-one-regular {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root {
     /* CSS HEX */
@@ -21,11 +24,20 @@
 --white: #ffffffff;
 
 /*Tipografia texto*/
-  --Texto: "Cairo Play", sans-serif;
+  --font-secundaria:"cairo play";
 
 /*Tipografia Titulos*/
 --Titulos: "Bagel Fat One", system-ui;
 }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+
 
 button{
     cursor: pointer;
@@ -56,6 +68,7 @@ main>h1{
     text-align: center;
 }
 
+/*Header*/
 header{
     background-color: var(--strawberry-red);
     padding: 1rem 2rem;
@@ -102,29 +115,43 @@ header nav ul {
     background-color: var(--SecondaryRed-dark-garnet);  
 }
 
+/*Hero*/
 .hero-section{
     min-height: 80vh;
     background-color:var(--white);
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     align-items:center;
     min-height:100vh;
-    justify-content:left;
+    justify-content: center;
+}
+.section-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title{
     font-family: var(--Titulos);
     color: var(--strawberry-red);
-    max-width:50%;
+    max-width:70%;
+    font-size: 150px;
+    justify-content:flex-start;
 }
+
 .subtitle{
     margin-top:8px;
-    max-width: 50%;
+    max-width: 70%;
     font-family: var(--Titulos);
+    font-size: 50px;
 }
+
 .description{
-    max-width:50%;
+    max-width:70%;
     margin: 24px 0 40px;
+    font-size: 30px;
+    font-family: var(--font-secundaria);
+    
 }
 
 .btn{
@@ -132,20 +159,53 @@ header nav ul {
    border: 2px solid ;
    color:var(--white);
    border-radius: 30px;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   /* justify-content: left; */
+    gap:3px;
    /* background:var(--SecondaryRed-dark-garnet); */
-   font-family: var(--Texto);
+   font-family: var(--font-secundaria);
    font-weight: bold;
    
 }
-.btn .order-now{
+ .btn .order-now{ 
  background:var(--SecondaryRed-dark-garnet);
 }   
 
 .btn .contact-us{
-     background:var(--SecondaryRed-dark-garnet);
+  background:var(--SecondaryRed-dark-garnet);
+}
+
+/*Hero Image*/
+.hero-image-wrapper{
+    margin-right: 80px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    
+}
+.hero-image{
+    width: 100%;
+  height: auto;
+  display: block;
+  animation: slideInRight 1s ease-in forwards;
+
 
 }
 
+@keyframes slideInRight {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/*Footer*/
 
  footer{
     background-color: var(--strawberry-red);
