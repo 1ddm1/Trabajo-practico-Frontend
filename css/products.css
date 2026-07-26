@@ -1,33 +1,40 @@
 
 .card-container{
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
     gap:2rem;
+    padding: 2rem;
     justify-content: center;
-    border: hidden;
-
-}
-h1{
-    font-family: var(--Titulos);
-    font-size: 120px;
-}
-
-.card-body{
- color: var(--SecondaryBlack-carbon-black);
-
-    h2{
-    font-family: var(--Titulos);
-   } 
-   p{
-    font-family: var(--font-secundaria);
-   }
 }
 
 .card{
-    width: 300px;
-    box-shadow: 0px 4px 6px rgb(0 0 0);
-    overflow: hidden;
+    width: 600px;
+    border: 2px solid transparent;
     border-radius: 20px;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / .3);
+    object-fit: contain;
+    text-align: center;
+    overflow: hidden;
+    
 }
+
+.card:hover{
+    border-color: var(--strawberry-red);
+}
+
+
+.card-body{
+    padding:20px;
+}
+
+ .card-body h2{
+    font-family: var(--Titulos);
+   } 
+.card-body p{
+    font-family: var(--font-secundaria);
+   }
+
+
 .card img{
     width: 100%;
     height: 200px;
@@ -35,15 +42,18 @@ h1{
 }
 
 .btn-order{
-   padding:8px;
-   border: 2px solid ;
-   color:var(--white);
+   display:inline-block;
+    padding: 12px 20px;
+    color:var(--white);
    border-radius: 30px;
-   display:flex;
-   align-content: center;
-   background:var(--Accent-ahogany-red-2);
-   font-family: var(--Titulos);
+   font-family: var(--font-secundaria);
    font-weight: bold;
-   overflow: hidden;
-   
+   font-size: 20px;
+   background:var(--SecondaryRed-dark-garnet);  
+   transition: .3s;
 }
+
+.btn-order:hover{
+    background:var(--strawberry-red);
+}
+  
