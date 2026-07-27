@@ -55,10 +55,6 @@ button,a{
 }
 
 
-.btn:hover{
-   background-color:var(--strawberry-red);
-}
-
 ul{
     list-style: none;
 }
@@ -123,6 +119,9 @@ header nav ul {
 
 h1, h2, h3{
     font-family: var(--Titulos);
+}
+h1{
+    font-size: 60px;
 }
 
 p{

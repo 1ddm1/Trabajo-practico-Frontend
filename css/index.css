@@ -44,21 +44,22 @@
 }
 
 .btn{
-     display:flex;
+    display:flex;
    flex-direction:row;
    justify-content: space-between;
     gap:3px;
+
 }
-.btn a{
+.btn-primary{
    padding: 10px 16px;
    border: 2px solid ;
    color:var(--white);
    border-radius: 30px;
    font-family: var(--font-secundaria);
    font-weight: bold;
- background:var(--SecondaryRed-dark-garnet);
- transition: 2s ease;
- animation:slideUp 1s ease-in;
+    background:var(--SecondaryRed-dark-garnet);
+    transition: .5s ease;
+    animation:slideUp 1s ease-in;
 }
 
 @keyframes slideUp{
@@ -72,9 +73,10 @@ to{
 }
 }
 
-.btn a:hover{
-    background-color:var(--strawberry-red);
-}
+ .btn-primary:hover{
+    background-color: var(--strawberry-red);
+
+} 
 /*Hero Image*/
 .hero-image-wrapper{
     margin-right: 80px;
