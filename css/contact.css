@@ -1,10 +1,10 @@
 
-.contactanos{
+.contact-section{
     display:grid;
-     grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+     grid-template-columns:1fr 1fr;
     gap:2rem;
     padding: 2rem;
-    justify-content: center;
+    align-items: start;
 }
 
 
@@ -14,7 +14,7 @@
     padding: 2rem;
     border-radius:8px;
     box-shadow: 0 4px 8px var(--strawberry-red);
-    background-color: var(--silver);
+    background-color: var(--SecondaryWhite-white-smoke);
     margin-bottom: 1.5rem;
     font-family: var(--font-secundaria);
     display:flex;
@@ -105,9 +105,10 @@ label{
 
 .contact-section{
     margin: 0 auto;
+    margin-bottom: auto;
     display:flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     padding: 30px;
     gap:1.5rem;
     border: 2px solid transparent;
@@ -122,12 +123,9 @@ label{
 }
 
 .social-media{ 
-     display:flex;
-    flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    padding: 30px;
-    gap:1.5rem;
+    padding: 10px;
     border: 2px solid transparent;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgb(0 0 0 / .3);
@@ -142,9 +140,26 @@ label{
     color: var(--PrimaryRed-mahogany-red);
     
 }
+
 .contact-section, .social-media{
     font-family: var(--font-secundaria);
+    font-size: 20px;
+   
 }
 .contact-section:hover{
-    transform: scale(1.05);
+    transform: translateY(-10px);
 }
+
+.social-media a{
+    padding: 2px 4px;
+   color: var(--PrimaryRed-mahogany-red);
+    transition: .9s ease;
+    border-radius: 30px;
+    border:none;
+}
+
+.social-media a:hover{
+   color:var(--SecondaryRed-dark-garnet);
+    text-decoration: underline var(--SecondaryRed-dark-garnet);  
+}
+
