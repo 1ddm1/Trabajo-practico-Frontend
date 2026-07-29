@@ -78,10 +78,9 @@ to{
 } 
 /*Hero Image*/
 .hero-image-wrapper{
-    margin-right: 20px;
     overflow: hidden;
     width: 100%;
-    max-width: 300px;
+    max-width: 800px;
     
 }
 .hero-image{
