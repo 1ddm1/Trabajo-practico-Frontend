@@ -77,7 +77,7 @@ main>h1{
 }
 
 img{
-    max: width 100%;
+    width: 100%;
     display:block;
 }
 
@@ -101,11 +101,12 @@ header nav{
     align-items: center;
     gap:12px;
     text-decoration: none;
-    width: 30px;
+   
 }
 
 .logo img{
     width: 30px;
+    color: var(--onyx);
 }
 
 .nav-logo .logo-text{
