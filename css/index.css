@@ -1,6 +1,5 @@
 
 .hero-section{
-    min-height: 80vh;
     background-color:var(--white);
     display:flex;
     flex-direction:row;
@@ -79,10 +78,10 @@ to{
 } 
 /*Hero Image*/
 .hero-image-wrapper{
-    margin-right: 80px;
+    margin-right: 20px;
     overflow: hidden;
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     
 }
 .hero-image{
