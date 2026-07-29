@@ -1,5 +1,5 @@
 
-.contact-section{
+.section-contact{
     display:grid;
      grid-template-columns:1fr 1fr;
     gap:2rem;
@@ -104,8 +104,9 @@ label{
 
 
 .contact-section{
+    background-color: var(--PrimaryRed-mahogany-red);
+    color:white;
     margin: 0 auto;
-    margin-bottom: auto;
     display:flex;
     flex-direction: column;
     width: 100%;
@@ -117,12 +118,15 @@ label{
     text-align: center;
     overflow: hidden;
     justify-content: space-between;
-    background-color: var(--PrimaryRed-mahogany-red);
-    color:white;
     transition: transform 0.3s ease-in-out;
 }
 
+.contact-section a{
+    color: rgb(102, 190, 102);
+}
 .social-media{ 
+    background-color: var(--SecondaryWhite-white-smoke);
+    color: var(--PrimaryRed-mahogany-red);
     width: 100%;
     margin: 0 auto;
     padding: 10px;
@@ -130,14 +134,10 @@ label{
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgb(0 0 0 / .3);
     text-align: center;  border:2px solid var(--strawberry-red);
-    border-radius:12px;
     font-family:var(--font-secundaria);
     outline:none;
-    box-sizing:border-box;
     overflow: hidden;
     justify-content: space-between;
-    background-color: var(--SecondaryWhite-white-smoke);
-    color: var(--PrimaryRed-mahogany-red);
     
 }
 

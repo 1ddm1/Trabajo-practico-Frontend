@@ -1,4 +1,10 @@
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+}
+
 .cairo-play-text{
   font-family: "Cairo Play", sans-serif;
   font-optical-sizing: auto;
@@ -30,13 +36,6 @@
 --Titulos: "Bagel Fat One", system-ui;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    
-}
-
 
 a{
     text-decoration: none;
@@ -50,6 +49,7 @@ body{
     flex-direction:column;
     font-family: var(--Texto);
 }
+
 button,a{
     cursor: pointer;
 }
