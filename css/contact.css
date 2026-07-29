@@ -64,7 +64,7 @@ input,textarea,select{
 }
 
 
-.btn{
+.btn-primary,.btn-danger{
     padding: 12px 24px;
    color:var(--white);
    border-radius: 30px;

@@ -52,13 +52,12 @@ body{
 
 
 .btn{
-     padding: 12px 20px;
+    padding: 12px 20px;
     color:var(--white);
    border-radius: 30px;
    font-family: var(--font-secundaria);
    font-weight: bold;
    font-size: 20px;
-   background:var(--SecondaryRed-dark-garnet);  
    transition: .3s;
    margin-top: auto;
    
@@ -102,6 +101,7 @@ header nav{
     align-items: center;
     gap:12px;
     text-decoration: none;
+    width: 30px;
 }
 
 .logo img{
