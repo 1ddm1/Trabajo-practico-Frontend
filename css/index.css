@@ -59,7 +59,7 @@
    font-family: var(--font-secundaria);
    font-weight: bold;
    background-color: var(--SecondaryRed-dark-garnet);
-    transition: .5s ease;
+   transition: .5s ease;
     
 }
 
