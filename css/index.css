@@ -47,6 +47,7 @@
    flex-direction:row;
    justify-content: space-between;
     gap:3px;
+    animation:slideUp 1s ease-in;
 
 
 }
@@ -57,9 +58,9 @@
    border-radius: 30px;
    font-family: var(--font-secundaria);
    font-weight: bold;
-   
+   background-color: var(--SecondaryRed-dark-garnet);
     transition: .5s ease;
-    animation:slideUp 1s ease-in;
+    
 }
 
 @keyframes slideUp{
@@ -73,7 +74,7 @@ to{
 }
 }
 
- .btn-primary:hover{
+ .btn:hover{
     background-color: var(--strawberry-red);
 
 } 
