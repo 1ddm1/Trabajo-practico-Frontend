@@ -57,7 +57,7 @@
    border-radius: 30px;
    font-family: var(--font-secundaria);
    font-weight: bold;
-    background:var(--SecondaryRed-dark-garnet);
+   
     transition: .5s ease;
     animation:slideUp 1s ease-in;
 }
