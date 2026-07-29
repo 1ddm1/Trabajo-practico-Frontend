@@ -1,5 +1,5 @@
 
-.section-content-hero{
+.hero-section{
     min-height: 80vh;
     background-color:var(--white);
     display:flex;
@@ -8,12 +8,13 @@
     min-height:100vh;
     justify-content: center;
 }
-.hero-section{
+.section-content-hero{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 
+.section-content-hero
 .title{
     font-family: var(--Titulos);
     color: var(--strawberry-red);
