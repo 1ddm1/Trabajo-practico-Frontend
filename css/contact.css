@@ -75,7 +75,7 @@ input,textarea,select{
    transition:.3s;
 }
 
-.btn-primary,.btn-danger:hover{
+.btn:hover{
    background-color:var(--strawberry-red);
 }
 

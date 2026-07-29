@@ -42,12 +42,12 @@
   color: var(--white);
 }
 
-.btn{
+.btn-group{
     display:flex;
    flex-direction:row;
    justify-content: space-between;
     gap:3px;
-    background-color: none;
+
 
 }
 .btn-primary{
